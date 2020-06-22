@@ -79,11 +79,9 @@ class App extends Component {
     });
   };
   render() {
-    const row = {};
-
     return (
       <div className='container'>
-        <div className='row' style={row}>
+        <div className='row'>
           <div className='col-10 mx-auto col-md-8 mt-4'>
             <Alert alert={this.state.alert} />
             <h3 className='text-center' style={{ fontFamily: 'Tahoma' }}>
