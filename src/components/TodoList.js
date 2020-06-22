@@ -11,7 +11,7 @@ export default class TodoList extends Component {
     };
     return (
       <ul className='list-group my-5'>
-        <h3 className='text-center' style={{ fontFamily: 'cursive' }}>
+        <h3 className='text-center' style={{ fontFamily: 'Tahoma' }}>
           Todo List
         </h3>
         <div style={container}>

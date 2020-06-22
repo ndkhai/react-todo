@@ -83,8 +83,8 @@ class App extends Component {
         <div className='row' style={row}>
           <div className='col-10 mx-auto col-md-8 mt-4'>
             <Alert alert={this.state.alert} />
-            <h3 className='text-center' style={{ fontFamily: 'cursive' }}>
-              Todo Input
+            <h3 className='text-center' style={{ fontFamily: 'Tahoma' }}>
+              Nhập Công Việc
             </h3>
             <TodoInput
               item={this.state.item}
