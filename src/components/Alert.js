@@ -6,13 +6,13 @@ export default class Alert extends Component {
       <div>
         {this.props.alert && (
           <div
-            class='alert alert-danger alert-dismissible fade show'
+            className='alert alert-danger alert-dismissible fade show'
             role='alert'
           >
             {this.props.alert}
             <button
               type='button'
-              class='close'
+              className='close'
               data-dismiss='alert'
               aria-label='Close'
             >

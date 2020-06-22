@@ -9,6 +9,7 @@ export default class TodoList extends Component {
       borderRadius: '5px',
       padding: '15px 22px 22px 22px',
     };
+
     return (
       <ul className='list-group my-5'>
         <h3 className='text-center' style={{ fontFamily: 'Tahoma' }}>

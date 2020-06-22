@@ -13,12 +13,14 @@ class App extends Component {
     editItem: false,
     alert: null,
   };
+
   handleChange = e => {
     this.setState({
       alert: null,
       item: e.target.value,
     });
   };
+
   handleSubmit = e => {
     e.preventDefault();
 
@@ -78,6 +80,7 @@ class App extends Component {
   };
   render() {
     const row = {};
+
     return (
       <div className='container'>
         <div className='row' style={row}>
