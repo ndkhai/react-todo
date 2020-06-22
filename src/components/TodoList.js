@@ -12,7 +12,7 @@ export default class TodoList extends Component {
     return (
       <ul className='list-group my-5'>
         <h3 className='text-center' style={{ fontFamily: 'Tahoma' }}>
-          Todo List
+          Danh sách công việc
         </h3>
         <div style={container}>
           {this.props.items.length > 0 ? (
