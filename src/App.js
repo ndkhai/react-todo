@@ -69,8 +69,6 @@ class App extends Component {
 
     const selectedItem = this.state.items.find(item => item.id === id);
 
-    console.log(selectedItem);
-
     this.setState({
       items: filteredItems,
       item: selectedItem.title,
